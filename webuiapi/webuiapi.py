@@ -21,6 +21,10 @@ class Upscaler(str, Enum):
     ScuNET_GAN = "ScuNET GAN"
     ScuNET_PSNR = "ScuNET PSNR"
     SwinIR_4x = "SwinIR 4x"
+    UltraSharp_4x = "4x-UltraSharp"
+    Foolhardy_Remacri_4x = "4x_foolhardy_Remacri"
+    NMKD_Superscale_4x = "4x_NMKD-Superscale-SP_178000_G"
+    NMKD_Siax_4x = "4x_NMKD-Siax_200k"
 
 
 class HiResUpscaler(str, Enum):
@@ -38,6 +42,10 @@ class HiResUpscaler(str, Enum):
     ScuNET_GAN = "ScuNET GAN"
     ScuNET_PSNR = "ScuNET PSNR"
     SwinIR_4x = "SwinIR 4x"
+    UltraSharp_4x = "4x-UltraSharp"
+    Foolhardy_Remacri_4x = "4x_foolhardy_Remacri"
+    NMKD_Superscale_4x = "4x_NMKD-Superscale-SP_178000_G"
+    NMKD_Siax_4x = "4x_NMKD-Siax_200k"
 
 
 @dataclass
